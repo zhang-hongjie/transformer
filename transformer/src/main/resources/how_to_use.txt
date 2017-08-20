@@ -1,0 +1,6 @@
+Required:
+    jdk 1.8
+
+
+Usage:
+    java -jar csvtool.jar /path/to/csv XML|JSON /path/to/destination

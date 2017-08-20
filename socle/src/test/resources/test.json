@@ -1,0 +1,29 @@
+{
+  "inputFile" : "test.txt",
+  "references" : [ {
+    "color" : "R",
+    "price" : 45.12,
+    "size" : 27,
+    "numReference" : 1460100040
+  }, {
+    "color" : "G",
+    "price" : 12.0,
+    "size" : 145,
+    "numReference" : 1460900848
+  }, {
+    "color" : "G",
+    "price" : 5.56,
+    "size" : 19,
+    "numReference" : 1462100044
+  }, {
+    "color" : "B",
+    "price" : 105.23,
+    "size" : 97,
+    "numReference" : 1462100403
+  } ],
+  "errors" : [ {
+    "line" : 5,
+    "message" : "Incorrect value for color",
+    "content" : "1462100403;A;100.1;9"
+  } ]
+}

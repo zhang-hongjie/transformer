@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<report>
+    <inputFile>test.txt</inputFile>
+    <references>
+        <reference>
+            <color>R</color>
+            <price>45.12</price>
+            <size>27</size>
+            <numReference>1460100040</numReference>
+        </reference>
+        <reference>
+            <color>G</color>
+            <price>12.0</price>
+            <size>145</size>
+            <numReference>1460900848</numReference>
+        </reference>
+        <reference>
+            <color>G</color>
+            <price>5.56</price>
+            <size>19</size>
+            <numReference>1462100044</numReference>
+        </reference>
+        <reference>
+            <color>B</color>
+            <price>105.23</price>
+            <size>97</size>
+            <numReference>1462100403</numReference>
+        </reference>
+    </references>
+    <errors>
+        <error>
+            <line>5</line>
+            <message>Incorrect value for color</message>
+            <content>1462100403;A;100.1;9</content>
+        </error>
+    </errors>
+</report>
